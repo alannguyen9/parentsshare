@@ -4,10 +4,23 @@
 +**Supervisor**: Dr. Alasdair Lambert, Teaching Associate, University of Strathclyde, email: alasdair.lambert@strath.ac.uk.
 
 ## What is the purpose of this research?
-This survey aims to gather information on parents’ opinions of sharing resources for supervising their children when they play together in order to develop an mobile application **for a graduation project (CS958)**. Although parents want to spend their time playing with their children as much as possible, sometimes their kids still want to have other friends to play with. A group of children playing together can help them develop their social skills. Parents can also save time and resources by alternatively changing their supervision role via the application.  The results of this survey will help me gather technical requirements and identify the features of the application properly to meet potential users' demands in the future. 
+After gathering information on parents’ opinions of sharing resources for supervising their children when they play together, the researcher **develops a mobile application for a graduation project (CS958)**. Although parents want to spend their time playing with their children as much as possible, sometimes their kids still want to have other friends to play with. A group of children playing together can help them develop their social skills. Parents can also save time and resources by alternatively changing their supervision role via the application.  
+
+### In the research, three surveys are conducted:
+
++**An online survey (above-mentioned questionnaires)**: The questionnaire will help the researcher gather technical requirements and identify the features of the application properly to meet potential users' demands in the future. 
+Participants conduct an online survey using the **Qualtrics Form** tool with the student email of University of Strathclyde (up to 60 people).
+
++**A face-to-face interview (questionnaires)**: This interview aims to enhance the application's usability and functionality to better serve users' needs.
+Each participant has a **FACE-TO-FACE interview via ZOOM** (up to 5 people).
+
++**Tests (User Acceptance tests and/or End-to-End Tests)**: Face-to-face observation and discussion between a user and the developer when a user behaves a real device.
+Each participant has a **FACE-TO-FACE trial session** on a **real device** and discussion (up to 3 people)
+
 ### Title of the study:
  Mobile application to provide location-based information for parents/carers to share resources in terms of caring for and educating their children.
 
+# Parents share resources application
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
