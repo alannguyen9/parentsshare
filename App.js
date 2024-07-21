@@ -5,19 +5,18 @@ import {
   Text,
   View,
 } from 'react-native';
+import Login from './src/screens/login';
 
 
 const App=() =>{
   return (
     <SafeAreaView >
       <View>
-        <Text>Hello React Native Word</Text>
+        <Login/>
       </View>
     </SafeAreaView>
   );
-} 
-  
-
+};
 
 
 export default App;
