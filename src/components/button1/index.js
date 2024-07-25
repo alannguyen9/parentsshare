@@ -6,14 +6,14 @@ import styles from "./styles";
 
 
 
-const Button1=() => {
+const Button1=({name}) => {
     const buttonClicked=()=>{
         //checking internally
         console.log("Button is clicked")
     }
     return (
         <TouchableOpacity onPress={buttonClicked()} style={styles.buttonContainer}>
-            <Text style={styles.buttonText}> Log in </Text>
+            <Text style={styles.buttonText}> {name} </Text>
         </TouchableOpacity>
     );
 

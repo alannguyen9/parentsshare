@@ -19,7 +19,7 @@ const styles=StyleSheet.create({
         marginBottom: 10
     },
     SubTitle: {
-        fontSize:14,
+        fontSize:16,
         textAlign: 'center',
         paddingTop: 5,
         marginBottom: 10
