@@ -1,5 +1,8 @@
 
 import React from 'react';
+
+import { NavigationContainer } from '@react-navigation/native';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -19,6 +22,7 @@ import Login from './src/screens/login';
 
 const App=() =>{
   return (
+    <NavigationContainer>{/* Rest of your app code */}
     <SafeAreaView >
       <ScrollView>
         <Login/>
@@ -32,6 +36,9 @@ const App=() =>{
         {/* <Resourcepage/> */}
       </ScrollView>
     </SafeAreaView>
+    
+    </NavigationContainer>
+    
   );
 };
 
