@@ -11,8 +11,8 @@ const Login=() => {
         <View>
             <Text style={styles.Title}>PARENTS SHARE RESOURCES</Text>
             <Image style={styles.image} source={require("../../assets/first_screen.jpg")}/>  
-            <Input1 placeholder="Please enter your email"/>
-            <Input1 placeholder="Please enter your password"/>
+            <Input1 placeholder="Please enter your email" />
+            <Input1 placeholder="Please enter your password" keyboardType={"phone-pad"} secureTextEntry={true}/>
             <Button1 name="Login"/>         
             <Text style={styles.SubTitle}>Forgot your password?</Text>
             <Button2 name="Sign up"/>
