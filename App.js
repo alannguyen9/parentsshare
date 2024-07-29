@@ -6,16 +6,30 @@ import {
   Text,
   View,
 } from 'react-native';
-import Signup from './src/screens/signup';
-// import Login from './src/screens/login';
+// import Playtogether from './src/screens/playtogether';
+// import Resourcepage from './src/screens/resourcepage';
+// import Exchange from './src/screens/exchange';
+// import Notification from './src/screens/notification';
+// import Helpme from './src/screens/helpme';
+// import Homepage from './src/screens/homepage';
+// import Signup from './src/screens/signup';
+import Login from './src/screens/login';
+// import Help from './src/screens/help';
 
 
 const App=() =>{
   return (
     <SafeAreaView >
       <ScrollView>
-        {/* <Login/> */}
-        <Signup/>
+        <Login/>
+        {/* <Signup/> */}
+        {/* <Homepage/> */}
+        {/* <Notification/> */}
+        {/* <Helpme/> */}
+        {/* <Help/> */}
+        {/* <Exchange/> */}
+        {/* <Playtogether/> */}
+        {/* <Resourcepage/> */}
       </ScrollView>
     </SafeAreaView>
   );

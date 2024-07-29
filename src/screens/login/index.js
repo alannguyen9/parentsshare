@@ -1,5 +1,5 @@
 import React from "react";
-import { View,Text, SafeAreaView, Image, TouchableOpacity } from "react-native";
+import { View,Text, SafeAreaView, Image, TouchableOpacity, ScrollView } from "react-native";
 import styles from "./styles";
 import Button1 from "../../components/button1";
 import Button2 from "../../components/button2";
@@ -8,7 +8,7 @@ import Input1 from "../../components/input1"
 const Login=() => {
     return (
         <SafeAreaView>
-        <View>
+        <ScrollView>
             <Text style={styles.Title}>PARENTS SHARE RESOURCES</Text>
             <Image style={styles.image} source={require("../../assets/first_screen.jpg")}/>  
             <Input1 placeholder="Please enter your email" />
@@ -17,7 +17,7 @@ const Login=() => {
             <Text style={styles.SubTitle}>Forgot your password?</Text>
             <Button2 name="Sign up"/>
                  
-        </View>
+        </ScrollView>
         </SafeAreaView>
         
         
