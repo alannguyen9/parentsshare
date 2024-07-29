@@ -3,6 +3,7 @@ import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
 
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {
   SafeAreaView,
   ScrollView,
@@ -20,22 +21,19 @@ import Login from './src/screens/login';
 // import Help from './src/screens/help';
 
 
+const Stack = createNativeStackNavigator();
+
+
 const App=() =>{
   return (
-    <NavigationContainer>{/* Rest of your app code */}
-    <SafeAreaView >
-      <ScrollView>
-        <Login/>
-        {/* <Signup/> */}
-        {/* <Homepage/> */}
-        {/* <Notification/> */}
-        {/* <Helpme/> */}
-        {/* <Help/> */}
-        {/* <Exchange/> */}
-        {/* <Playtogether/> */}
-        {/* <Resourcepage/> */}
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      {/* Rest of your app code */}
+    
+        <Stack.Navigator>
+        <Stack.Screen name="Login" component={Login} />
+        </Stack.Navigator>
+      {/* </ScrollView> */}
+    
     
     </NavigationContainer>
     
