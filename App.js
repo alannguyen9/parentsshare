@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {
@@ -22,11 +22,19 @@ import Login from './src/screens/login';
 
 
 const Stack = createNativeStackNavigator();
+//https://reactnavigation.org/docs/themes/
+const MyTheme = {
+  
+  colors: {
+    background: 'white'
+  },
+};
+
 
 
 const App=() =>{
   return (
-    <NavigationContainer>
+    <NavigationContainer theme={MyTheme}>
       {/* Rest of your app code */}
     
         <Stack.Navigator>
