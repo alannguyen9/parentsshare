@@ -4,8 +4,18 @@ import styles from "./styles";
 import Button1 from "../../components/button1";
 import Button2 from "../../components/button2";
 import Input1 from "../../components/input1"
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-const Login=() => {
+const Login=({navigation}) => {
+    const onSignup=() => {
+    
+        // console.log('Button Sign up on Login page is clicked'),
+       navigation.navigate('Signup');
+    }
+    const onHomepage=() =>{
+        navigation.navigate('Homepage')
+    }  
+
     return (
         <SafeAreaView>
         <ScrollView>
@@ -13,9 +23,9 @@ const Login=() => {
             <Image style={styles.image} source={require("../../assets/first_screen.jpg")}/>  
             <Input1 placeholder="Please enter your email" />
             <Input1 placeholder="Please enter your password" keyboardType={"phone-pad"} secureTextEntry={true}/>
-            <Button1 name="Login"/>         
+            <Button1 onPress={onHomepage} name="Login"/>         
             <Text style={styles.SubTitle}>Forgot your password?</Text>
-            <Button2 name="Sign up"/>
+            <Button2 onPress={onSignup} name="Sign up"/>
                  
         </ScrollView>
         </SafeAreaView>

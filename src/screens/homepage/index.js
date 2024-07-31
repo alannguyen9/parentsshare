@@ -4,8 +4,14 @@ import styles from "./styles";
 import Button1 from "../../components/button1";
 import Button2 from "../../components/button2";
 import Input1 from "../../components/input1"
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-const Homepage=() => {
+
+const Homepage=({navigation}) => {
+    // // self-check
+    // console.log (navigation)
+    
+
     return (
         <SafeAreaView>
         <View>

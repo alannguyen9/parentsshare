@@ -1,6 +1,6 @@
 import React from "react";
 import { TextInput, View } from "react-native";
-import styles from "../input1/styles";
+import styles from "./styles";
 
 const Input1=({placeholder}) => {
     return (

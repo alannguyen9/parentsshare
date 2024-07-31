@@ -3,7 +3,7 @@ import { View,Text, SafeAreaView, Image, TouchableOpacity } from "react-native";
 import styles from "./styles";
 
 
-const Notification=() => {
+const Notification=({navigation}) => {
     return (
         <SafeAreaView>
         <View>
